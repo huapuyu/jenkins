@@ -8,7 +8,7 @@ public class UtilsTest {
 
 	@Test
 	public void test() {
-		Assert.assertEquals("127.0.0.1", Utils.getAddress());
+		Assert.assertEquals("192.168.1.1", Utils.getAddress());
 	}
 	
 	@Test
